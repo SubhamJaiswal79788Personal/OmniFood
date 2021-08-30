@@ -50,6 +50,8 @@ body
     font-weight: 400;
     color: #555;
     
+    
+    
    
 
 }
@@ -58,6 +60,7 @@ body
 
 .hero-section
 {
+    border-top: 10px solid pink;
     background-color: #fae5d3;
     padding: 2.4rem;
 }
