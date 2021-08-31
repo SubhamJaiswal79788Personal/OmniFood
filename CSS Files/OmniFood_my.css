@@ -139,6 +139,7 @@ body
     gap: 3.2rem; 
     display: grid;
     justify-items:center;
+  
 }
 
 
@@ -146,6 +147,7 @@ body
 .grid-2-cols
 {
     grid-template-columns: repeat(2,1fr);
+    
 }
 .grid-3-cols
 {
@@ -586,6 +588,7 @@ header
     transform: scale(1);
     transition: all 0.2s;
     
+    
 
 }
 .meal-cards:hover
@@ -593,6 +596,7 @@ header
     transform: scale(1.05);
     transition: all 0.2s;
     box-shadow: 10px 10px 10px #777;
+    overflow: hidden;
 }
 
 .meal-cards p span
