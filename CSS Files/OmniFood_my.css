@@ -93,7 +93,6 @@ body
 {
     
     background-color:#eb984e ;
-
     transition: all 0.3s;
 }
 
@@ -116,7 +115,6 @@ body
 {
     
     transition: all 0.3s;
-    
     box-shadow: inset 0px 0px 0px 3px #f5deb3;
 }
 
