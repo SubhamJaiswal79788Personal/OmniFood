@@ -121,9 +121,19 @@ body
 }
 
 .container{
+
+
     max-width: 130rem;
-    margin: 3.6rem auto;
- 
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+    padding-top:3.2rem;
+    padding-bottom:3.2rem;
+    
+   
+    
+    
+    /* margin: 3.6rem auto; */
+   
 }
 
 .grid
@@ -180,7 +190,7 @@ body
 }
 .text-center
 {
-    width: 99%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -196,8 +206,28 @@ body
     margin: 2.4rem;
 
 }
+.veg-tab , .non-veg-tab , .culture-tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    align-self: flex-start;
 
+}
+.non-veg-tab{
+    background-color: red;
 
+}
+.culture-tab
+{
+    background-color: gold;
+    color: black;
+}
 
 /***********************************
     || UTILITIES
@@ -363,7 +393,7 @@ header
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    flex-shrink: 1;
+    flex-shrink: 0;
     margin-right: -2.5rem;
     border: 2px solid #f5deb3;
 }
@@ -389,6 +419,54 @@ header
 ************************************ */
 
 
+
+/***********************************
+    || FEATURE-IN SECTION
+************************************ */
+
+.featured-in
+{
+    margin-top: 6.4rem;
+    margin-bottom: 12.8rem;
+}
+
+
+
+.featured-in p {
+    
+    
+    display: block;
+    width: 70%;
+    text-align: center;
+    margin: 3.6rem auto;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: #999
+}
+
+.image-container
+{
+    padding-left: 3.6rem;
+    display: flex;
+    justify-content: space-around;
+}
+.featured-in-logo
+{
+    height: 3.2rem;
+    filter: saturate(0%);
+    opacity: 0.6;
+}
+
+
+/***********************************
+    ||FEATURE-IN SECTION
+************************************ */
+
+
+
+
+
+
 /***********************************
     || FEATURE SECTION
 ************************************ */
@@ -397,14 +475,12 @@ header
 
 
 
-/***********************************
-    || FEATURE SECTION
-************************************ */
+
 
 
 .feature
 {
-    margin-top: 9.4rem;
+    margin: 9.4rem 0px;
 }
 
 .feature-img
@@ -421,14 +497,14 @@ header
     color: #e67e22;
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: 5.2rem;
+    margin-bottom: 2.4rem;
 }
 .feature-content
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 6.4rem;
+    
 }
 
 .feature-text
@@ -479,3 +555,185 @@ header
     transform: translate(0, -50%);
     
 }
+
+/***********************************
+    || FEATURE SECTION
+************************************ */
+
+
+/***********************************
+    || MEALS SECTION
+************************************ */
+
+.meal-section-header
+{
+    color: #e67e22;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+    
+}
+
+
+.meal-cards{
+
+   
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 90%;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px #777;
+    transform: scale(1);
+    transition: all 0.2s;
+    
+
+}
+.meal-cards:hover
+{
+    transform: scale(1.05);
+    transition: all 0.2s;
+    box-shadow: 10px 10px 10px #777;
+}
+
+.meal-cards p span
+{
+    margin-left: 1rem;
+    flex-shrink: 0;
+}
+
+
+
+
+.meal-cards-details{
+
+    flex-shrink: 0;
+
+}
+
+.meal-cards img
+{
+    width: 100%;
+    flex-shrink: 0;
+    display: inline-block;
+    border-top-left-radius: 6px ;
+    border-top-right-radius: 6px;
+}
+.meal-list
+{
+    flex-shrink: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+
+    
+}
+.meal-list li {
+    display: flex;
+    align-content: center;
+    gap: 1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    
+}
+.meal-icon
+{   
+    color:hsl(28, 100%, 50%) ;
+   
+}
+
+
+.meal-cards-list-container{
+
+   
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 100%;
+    background-color: #fcf2e9d5;
+    border-radius: 6px;
+    box-shadow: 5px 5px 5px #777;
+    transform: scale(1);
+    transition: all 0.2s;
+    padding: 2rem;
+   
+    
+
+}
+.meal-cards-list-container:hover
+{
+    transform: scale(1.05);
+    transition: all 0.2s;
+    box-shadow: 10px 10px 10px #777;
+}
+.meal-cards-btn:link , .meal-cards-btn:visited
+{
+
+    display: inline-block;
+    padding: 16px 25px;
+    text-decoration: none;
+    color: #ebebeb;
+    background-color:#e67e22; 
+    border-radius: 5px;
+    transition: all 0.3s;
+    font-size: 1.8rem;
+    font-weight: 700;
+    align-self: flex-end;
+    width: 100%;
+    
+
+}
+
+.meal-cards-btn:hover , .meal-cards-btn:active
+{
+    
+    background-color:#eb984e ;
+
+    transition: all 0.3s;
+}
+
+.meal-card-list
+{
+    list-style: none;
+
+}
+.meal-card-list-item
+{
+   
+    line-height: 1.5;
+    font-size: 2.4rem;
+    font-weight: 600;
+    
+}
+.meal-link{
+
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 2rem;
+    color: #000;
+    width: 10%;
+    border-top: 2px solid #f57c13;
+    border-bottom:2px solid #f57c13; 
+    text-align: center;
+    transform: scale(1);
+    transition: all 0.3s;
+    margin:2.4rem auto
+    
+}
+
+.meal-link:hover{
+
+    transform: scale(1.1);
+    background-color: #f57c13;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+
+/***********************************
+    || MEALS SECTION
+************************************ */
