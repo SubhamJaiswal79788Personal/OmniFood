@@ -159,6 +159,22 @@ body
 }
 
 
+.justify-grid-start
+{
+    justify-self: start;
+}
+
+.justify-grid-end
+{
+    justify-self: end;
+}
+
+
+
+
+
+
+
 .primary-heading
 {
     
@@ -206,6 +222,41 @@ body
     margin: 2.4rem;
 
 }
+.section-header{
+
+    color: #e67e22;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+
+}
+
+.list{
+
+    list-style: none;
+}
+
+.list-item{
+
+    line-height: 3.6;
+    font-size: 2rem;
+    font-weight: 400;
+
+}
+
+.icon{
+
+    color:hsl(28, 100%, 50%) ;
+
+}
+
+.brand
+{
+    color:hsl(28, 100%, 50%) ;
+}
+
+
+
 .veg-tab , .non-veg-tab , .culture-tab{
     display: flex;
     align-items: center;
@@ -758,6 +809,7 @@ header
 {
     align-items: center;
     margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
     background-color: #fae5d3;
     padding-left: 9.6rem;
     padding-top: 2.4rem;
@@ -856,3 +908,115 @@ header
     transform: scale(1.1);
     transition: all 0.5s;
 }
+
+/***********************************
+    || TESTIMONIALS SECTION
+************************************ */
+
+
+/***********************************
+    || PRICING SECTION
+************************************ */
+
+.pricing-card
+{
+    display: flex;
+    flex-direction: column;
+    
+    /* background-color: #fae5d3; */
+    padding: 2rem;
+    
+    
+    border-radius: 10px;
+    width: 70%;
+    border: 2px solid  #fae5d3;
+
+    
+}
+
+.price
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+
+.price-number
+{
+    font-size: 6rem;
+    color: #000;
+
+}
+
+.price-text
+{
+    padding-top: 2.4rem;
+    font-size:2rem;
+    align-self: center;
+    
+    
+}
+.price-symbol
+{
+    font-size:2rem;
+}
+
+.price-best
+{
+    background-color: #fae5d3;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.price-best::before
+{
+    content: "BEST VALUE";
+    position: absolute;
+    top: 7%;
+    right: -14%;
+    transform: rotate(45deg);
+    color:black;
+    font-size: 1.4rem;
+    background-color: gold;
+    display: inline-block;
+    width: 53%;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.pricing-feature
+{
+    margin-top: 9.6rem;
+    padding-left: 9.6rem;
+}
+
+
+.pricing-feature-text
+{
+    color: #777;
+    font-size: 2rem;
+    
+    
+    line-height: 1.3;
+    padding-top: 1.2rem;
+}
+
+
+.pricing-icon
+{
+    width: 4.8rem;
+    height:4.8rem;
+    margin-bottom: 3.6rem;
+    color: #fa7500;
+    background-color: #fff6e6;
+    border-radius: 50%;
+    padding: 1.2rem;
+}
+
+/***********************************
+    || PRICING SECTION
+************************************ */
