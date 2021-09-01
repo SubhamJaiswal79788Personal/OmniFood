@@ -756,11 +756,12 @@ header
 
 .section-testimonials
 {
+    align-items: center;
     margin-top: 9.6rem;
     background-color: #fae5d3;
     padding-left: 9.6rem;
     padding-top: 2.4rem;
-   
+    
 }
 
 
