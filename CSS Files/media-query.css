@@ -1,0 +1,168 @@
+/* *************
+Small laptops
+************* */
+
+@media (max-width:84em)
+{
+
+    .hero-container
+    {
+        max-width: 120rem;
+    }
+
+    .primary-heading
+    {
+
+        font-size: 4.4rem;
+
+    }
+
+
+    .testimonial-gallery
+    {
+        grid-template-columns: 1fr 1fr 
+    }
+
+    .testimonial-card-container
+    {
+        padding: 2rem;
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: 0 auto 0 auto;
+    }
+}
+
+
+/* *************
+Small laptops
+************* */
+
+
+/* *************
+LandScape Tablets
+************* */
+
+
+@media (max-width:75rem)
+{
+    html{
+        font-size: 56.25%;
+    }
+}
+
+/* *************
+LandScape Tablets
+************* */
+
+/* *************
+Tablets
+************* */
+
+
+@media (max-width:59em)
+{
+
+
+    html{
+        font-size: 50%;
+    }
+
+    .hero-section
+    {
+        padding: 0;
+    }
+
+    .hero-container
+    {
+        max-width: 90rem;
+        padding: 9rem;
+    }
+
+
+    .hero-left-content{
+
+        
+            grid-column: 1/-1;
+        }
+
+    .hero-right-content{
+
+        display: block;
+
+        grid-column: 1/-1;
+        
+        margin-top: 2rem;
+
+    }
+
+    .hero-right-content-Image{
+
+        display: block;
+        width: 70%;
+        margin: 0 auto 0 auto;
+       
+    }
+
+    .featured-in-logo
+    {
+        height: 2.6rem;
+    }
+
+    .feature-img-container
+    {
+        height: 60%;
+        align-items: center;
+       
+    }
+
+    .align-center
+    {
+        align-items: center;
+    }
+    .feature-text
+    {
+        font-size: 1.6rem;
+    
+        letter-spacing: -0.5px;
+        line-height: 1.4;
+    }
+
+
+    .meal-cards .meal-list {
+    
+        padding: 0rem;
+    }
+    .meal-cards .tertiary-heading {
+        padding: 1.4rem;
+        padding-bottom: 0;
+    }
+
+    .pricing-card {
+
+        padding: 1rem;
+        width: 95%;
+
+    }
+
+    .grid-1-cols
+    {
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+
+    .testimonial-card-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .testimonial-gallery {
+
+        grid-template-columns: repeat(6,1fr);
+
+    }
+
+}
+
+
+/* *************
+Tablets
+************* */
